@@ -1,9 +1,9 @@
-import { HouseingType } from './enums/housing-type.enum.js'
-import { Convenience } from './enums/convenience.enum.js'
+import { HouseingType } from './enums/housing-type.enum.js';
+import { Convenience } from './enums/convenience.enum.js';
 import { User } from './user.type.js';
 
 export type RentOffer = {
-  name: string;
+  title: string;
   description: string;
   publicationDate: Date;
   city: string;
