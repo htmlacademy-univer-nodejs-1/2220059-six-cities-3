@@ -72,31 +72,5 @@ export class TSVFileReader implements FileReader {
     }
 
     return offers;
-
-    // return this.rawData
-    //   .split('\n')
-    //   .filter((row) => row.trim().length > 0)
-    //   .map((line) => line.split('\t'))
-    //   .map(([title, description, publicationDate, city, preview, photos, isPremium, isFavourites, rank, housingType, roomsCount, guestsCount, price, conveniences, name, email, avatarPath, password, type, commentsCount, coordinates]) => ({
-    //     title,
-    //     description,
-    //     publicationDate: new Date(publicationDate),
-    //     city,
-    //     preview,
-    //     photos: photos.split(';'),
-    //     isPremium: Boolean(isPremium),
-    //     isFavourites: Boolean(isFavourites),
-    //     rank: Number.parseFloat(rank),
-    //     housingType: housingType as HouseingType,
-    //     roomsCount: Number.parseInt(roomsCount, 10),
-    //     guestsCount: Number.parseInt(guestsCount, 10),
-    //     price: Number.parseFloat(price),
-    //     conveniences: conveniences.split(';')
-    //       .map((convenience) => convenience as Convenience),
-    //     creator: {name, email, avatarPath, password, type: type as UserType},
-    //     commentsCount: Number.parseInt(commentsCount, 10),
-    //     coordinates: [Number.parseFloat(coordinates.split('; ')[0]),
-    //       Number.parseFloat(coordinates.split('; ')[1])]
-    //   }));
   }
 }
