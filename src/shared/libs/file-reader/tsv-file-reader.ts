@@ -65,8 +65,8 @@ export class TSVFileReader implements FileReader {
           .map((convenience) => Convenience[convenience as keyof typeof Convenience]),
         creator: {name, email, avatarPath, password, type: UserType[type as 'Usual' | 'Pro']},
         commentsCount: Number.parseInt(commentsCount, 10),
-        coordinates: [Number.parseFloat(coordinates.split('; ')[0]),
-          Number.parseFloat(coordinates.split('; ')[1])]
+        coordinates: [Number.parseFloat(coordinates.split(';')[0]),
+          Number.parseFloat(coordinates.split(';')[1])]
       };
       offers.push(offer);
     }
