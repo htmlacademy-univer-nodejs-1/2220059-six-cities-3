@@ -32,11 +32,11 @@
       "url/preview5.jpg"
     ],
     "photos": [
-      "url/photo1.1.jpg;url/photo1.2.jpg;url/photo1.3.jpg;url/photo1.4.jpg;url/photo1.5.jpg;url/photo1.6.jpg;",
-      "url/photo2.1.jpg;url/photo2.2.jpg;url/photo2.3.jpg;url/photo2.4.jpg;url/photo2.5.jpg;url/photo2.6.jpg;",
-      "url/photo3.1.jpg;url/photo3.2.jpg;url/photo3.3.jpg;url/photo3.4.jpg;url/photo3.5.jpg;url/photo3.6.jpg;",
-      "url/photo4.1.jpg;url/photo4.2.jpg;url/photo4.3.jpg;url/photo4.4.jpg;url/photo4.5.jpg;url/photo4.6.jpg;",
-      "url/photo5.1.jpg;url/photo5.2.jpg;url/photo5.3.jpg;url/photo5.4.jpg;url/photo5.5.jpg;url/photo5.6.jpg;"
+      "url/photo1.1.jpg;url/photo1.2.jpg;url/photo1.3.jpg;url/photo1.4.jpg;url/photo1.5.jpg;url/photo1.6.jpg",
+      "url/photo2.1.jpg;url/photo2.2.jpg;url/photo2.3.jpg;url/photo2.4.jpg;url/photo2.5.jpg;url/photo2.6.jpg",
+      "url/photo3.1.jpg;url/photo3.2.jpg;url/photo3.3.jpg;url/photo3.4.jpg;url/photo3.5.jpg;url/photo3.6.jpg",
+      "url/photo4.1.jpg;url/photo4.2.jpg;url/photo4.3.jpg;url/photo4.4.jpg;url/photo4.5.jpg;url/photo4.6.jpg",
+      "url/photo5.1.jpg;url/photo5.2.jpg;url/photo5.3.jpg;url/photo5.4.jpg;url/photo5.5.jpg;url/photo5.6.jpg"
     ],
     "names": [
       "Username1",

@@ -30,7 +30,7 @@ export function createOffer(offerData: string): RentOffer {
     email,
     avatarPath,
     password,
-    type: UserType[type as 'Usual' | 'Pro'],
+    type: type as UserType,
   };
 
   return {
@@ -43,12 +43,12 @@ export function createOffer(offerData: string): RentOffer {
     isPremium: Boolean(isPremium),
     isFavourites: Boolean(isFavourites),
     rank: Number.parseFloat(rank),
-    housingType: HouseingType[housingType as keyof typeof HouseingType],
+    housingType: housingType as HouseingType,
     roomsCount: Number.parseInt(roomsCount, 10),
     guestsCount: Number.parseInt(guestsCount, 10),
     price: Number.parseFloat(price),
     conveniences: conveniences.split(';')
-      .map((convenience) => Convenience[convenience as keyof typeof Convenience]),
+      .map((convenience) => convenience as Convenience),
     creator: user,
     commentsCount: Number.parseInt(commentsCount, 10),
     coordinates: [Number.parseFloat(coordinates.split(';')[0]),
