@@ -1,0 +1,71 @@
+{
+  "api": {
+    "titles": [
+      "Удобная аренда: ваше решение для комфортного проживания",
+      "Домашний рай",
+      "Солнечная квартира с видом на море",
+      "Отель в центре города",
+      "Дом с садом в тихом пригороде",
+      "Квартира с современным дизайном"
+    ],
+    "descriptions": [
+      "В нашем предложении мы стремимся сделать процесс аренды жилья максимально комфортным и удобным для наших клиентов. Мы предлагаем широкий выбор от экономичных вариантов до премиум-класса, чтобы каждый клиент мог найти идеальное жилье по своим потребностям. Доверьте нам заботу о вашем временном жилье и наслаждайтесь комфортом каждый день!",
+      "Уютный дом для вашего отдыха",
+      "Сдается в аренду уютная квартира с прекрасным видом на море. Идеальный вариант для тех, кто ценит комфорт и красоту природы.",
+      "Сдаётся в аренду стильная студия в самом центре города. Идеальный вариант для тех, кто хочет быть близко ко всему.",
+      "Предлагается в аренду уютный дом с просторным садом в тихом и живописном пригороде. Идеальный вариант для семьи.",
+      "Сдаётся в аренду стильная квартира с современным дизайном и удобной планировкой. Идеальный вариант для тех, кто ценит уют и красивый интерьер."
+    ],
+    "cities": [
+      "Paris 48.85661;2.351499",
+      "Cologne 50.938361;6.959974",
+      "Brussels 50.846557;4.351697",
+      "Amsterdam 52.370216;4.895168",
+      "Hamburg 53.550341;10.000654",
+      "Dusseldorf 51.225402;6.776314"
+    ],
+    "previews": [
+      "url/preview1.jpg",
+      "url/preview2.jpg",
+      "url/preview3.jpg",
+      "url/preview4.jpg",
+      "url/preview5.jpg"
+    ],
+    "photos": [
+      "url/photo1.1.jpg;url/photo1.2.jpg;url/photo1.3.jpg;url/photo1.4.jpg;url/photo1.5.jpg;url/photo1.6.jpg",
+      "url/photo2.1.jpg;url/photo2.2.jpg;url/photo2.3.jpg;url/photo2.4.jpg;url/photo2.5.jpg;url/photo2.6.jpg",
+      "url/photo3.1.jpg;url/photo3.2.jpg;url/photo3.3.jpg;url/photo3.4.jpg;url/photo3.5.jpg;url/photo3.6.jpg",
+      "url/photo4.1.jpg;url/photo4.2.jpg;url/photo4.3.jpg;url/photo4.4.jpg;url/photo4.5.jpg;url/photo4.6.jpg",
+      "url/photo5.1.jpg;url/photo5.2.jpg;url/photo5.3.jpg;url/photo5.4.jpg;url/photo5.5.jpg;url/photo5.6.jpg"
+    ],
+    "names": [
+      "Username1",
+      "Username2",
+      "Username3",
+      "Username4",
+      "Username5"
+    ],
+    "emails": [
+      "test1@test.com",
+      "test2@test.com",
+      "test3@test.com",
+      "test4@test.com",
+      "test5@test.com",
+      "test6@test.com"
+    ],
+    "avatarPaths": [
+      "/avatar1.png",
+      "/avatar2.png",
+      "/avatar3.jpg",
+      "/avatar4.png",
+      "/avatar5.png"
+    ],
+    "passwords": [
+      "hashedPassword1",
+      "hashedPassword2",
+      "hashedPassword3",
+      "hashedPassword4",
+      "hashedPassword5"
+    ]
+  }
+}
